@@ -10,8 +10,8 @@ has $.file;
 has $!lock;
 
 submethod TWEAK() {
+    $!lock = ($!file ~ ".lock").IO.open(:create, :rw);
     $!file = $!file.IO;
-    $!lock = $!file.dirname.IO.add(".lock").open(:create, :rw);
 }
 
 class PlugInfo { ... }

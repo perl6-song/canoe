@@ -3,7 +3,7 @@ use Test;
 use Canoe;
 use lib 'lib';
 
-plan 13;
+plan 16;
 
 my @config;
 
