@@ -11,8 +11,8 @@
         "plug-in",
         "pluggable"
     ],
-    "provides"    : {
-        "Canoe" : "lib/Canoe.pm6",
+    "provides" : {
+        "Canoe" : "lib/Canoe.pm6"
     },
 	"auth" : "github:araraloren",
     "authors" : "Loren",
